@@ -10,7 +10,7 @@ header {
     }
     
     .nav-link {
-        color: $text-dark;
+        color: $primary-color;
         font-family: $font-family-sans-serif;
         font-size: large;
         font-weight: 500;
@@ -18,7 +18,11 @@ header {
         transition: color $transition-speed ease-in-out;
 
         &:hover {
-            color: $primary-color;
+            color: $secondary-color;
+        }
+
+        &:active{
+            color: $link-color;
         }
     }
     

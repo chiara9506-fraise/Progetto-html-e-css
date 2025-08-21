@@ -8,7 +8,7 @@ header .navbar-brand img {
   height: 60px;
 }
 header .nav-link {
-  color: #333333;
+  color: #CD1B43;
   font-family: "Work Sans", sans-serif;
   font-size: large;
   font-weight: 500;
@@ -16,7 +16,10 @@ header .nav-link {
   transition: color 0.3s ease-in-out;
 }
 header .nav-link:hover {
-  color: #CD1B43;
+  color: #007A3D;
+}
+header .nav-link:active {
+  color: #3F1CF4;
 }
 header .btn-primary {
   background-color: #CD1B43;
@@ -31,4 +34,52 @@ header .btn-primary {
 header .btn-primary:hover {
   background-color: #007A3D;
   border-color: #007A3D;
+}
+
+#hero {
+  background-color: #FFFBF9;
+}
+#hero .row {
+  gap: 3rem;
+}
+#hero .display-5 {
+  font-family: "Shippori Antique", serif;
+  color: #333333;
+}
+#hero h1 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  text-align: start;
+}
+#hero h1 #job-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 4rem;
+  color: #CD1B43;
+  font-weight: 500;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+#hero .lead {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  max-width: 600px;
+}
+#hero img {
+  padding: 5px;
+  width: 100%;
+  max-width: 700 px;
+  border-radius: 15px;
+}
+#hero .about-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+@media (max-width: 576px) {
+  #hero .about-flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
