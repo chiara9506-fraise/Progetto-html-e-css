@@ -1,0 +1,37 @@
+
+header {
+    padding: 1.5rem 0;
+    background-color: $background-light;
+
+    .navbar-brand img {
+        height: 60px;
+    }
+    
+    .nav-link {
+        color: $text-dark;
+        font-family: $font-family-sans-serif;
+        font-weight: 500;
+        margin: 0 1rem;
+        transition: color $transition-speed ease-in-out;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    
+    .btn-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        font-family: $font-family-sans-serif;
+        font-size: large;
+        font-weight: 600;
+        padding: 0.75rem 2rem;
+        border-radius: $border-radius;
+        transition: background-color $transition-speed ease-in-out;
+        
+        &:hover {
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+        }
+    }
+}
