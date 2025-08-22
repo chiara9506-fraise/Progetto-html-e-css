@@ -1,6 +1,6 @@
 header {
   padding: 1.5rem 0;
-  background-color: #FFFBF9;
+  background-color: rgb(255, 237, 237);
   border-bottom: dotted 2px #CD1B43;
   border-bottom-width: 80%;
 }
@@ -82,4 +82,214 @@ header .btn-primary:hover {
     flex-direction: column;
     text-align: center;
   }
+}
+
+#about {
+  background-color: rgb(255, 237, 237);
+}
+#about .row {
+  gap: 0rem;
+}
+#about .display-4 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -44px;
+}
+#about .lead {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+#about p {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  line-height: 1.5;
+}
+#about img {
+  padding: 3px;
+}
+
+.about-main-content .img-fluid {
+  border-radius: 1rem;
+}
+.about-main-content .btn-primary {
+  margin-top: 1rem;
+  color: #FFFBF9;
+  background-color: #CD1B43;
+  border: 1px solid #CD1B43;
+}
+.about-main-content .btn-primary:hover {
+  background-color: #007A3D;
+  border: 1px solid #007A3D;
+}
+.about-main-content p {
+  line-height: 1.8;
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+
+.carousel-inner {
+  margin-bottom: 100px;
+}
+.carousel-inner .img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.carousel-inner .img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rotated-1 {
+  transform: rotate(-2deg);
+}
+
+.rotated-2 {
+  transform: rotate(2deg);
+}
+
+.rotated-3 {
+  transform: rotate(-2deg);
+}
+
+.rotated-4 {
+  transform: rotate(2deg);
+}
+
+#progetti {
+  background-color: #FFFBF9;
+  margin-bottom: 40px;
+}
+#progetti .display-4 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -86px;
+  text-align: right;
+}
+#progetti .lead {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-align: right;
+}
+#progetti .card {
+  background-color: rgb(255, 237, 237);
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+#progetti .card:hover {
+  transform: translateY(-5px);
+}
+#progetti .card .card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 250px;
+  object-fit: cover;
+}
+#progetti .card .card-body {
+  text-align: center;
+}
+#progetti .card .card-title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: #CD1B43;
+  font-size: xx-large;
+}
+#progetti .card .card-text {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+#progetti .btn-primary {
+  background-color: #CD1B43;
+  border-color: #CD1B43;
+  color: #FFFBF9;
+  transition: all 0.3s ease-in-out;
+}
+#progetti .btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: #007A3D;
+  background-color: #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#tools {
+  background-color: rgb(255, 237, 237);
+}
+#tools .display-4 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -84px;
+  text-align: left;
+}
+#tools .tool-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#tools .tool-circle {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+#tools .tool-circle:hover {
+  transform: scale(1.1);
+}
+#tools .tool-circle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+#tools .tool-name {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #CD1B43;
+  color: #FFFBF9;
+  font-family: "Work Sans", sans-serif;
+}
+.footer a {
+  color: #FFFBF9;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+.footer a:hover {
+  opacity: 1;
+}
+.footer .social-links a {
+  color: #FFFBF9;
+  opacity: 1;
+  transition: transform 0.3s ease-in-out;
+}
+.footer .social-links a:hover {
+  transform: translateY(-3px);
+}
+.footer .text-muted {
+  color: rgba(255, 255, 255, 0.6) !important;
 }/*# sourceMappingURL=style.css.map */

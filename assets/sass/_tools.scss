@@ -1,0 +1,51 @@
+
+#tools {
+
+    background-color: rgb(255, 237, 237);
+
+     .display-4 {
+        font-family: $font-family-sans-serif;
+        color: $primary-color;
+        font-weight: 500;
+        font-size: 3rem;
+        margin-top: -84px;
+        text-align: left;
+    }
+
+    .tool-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .tool-circle {
+        width: 150px; // Larghezza fissa del cerchio
+        height: 150px; // Altezza fissa del cerchio
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%; // Questo crea il cerchio!
+        border: 2px solid white; // Bordo bianco
+        background-color: white; // Sfondo bianco
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Ombra delicata
+        transition: transform 0.3s ease-in-out;
+        
+        &:hover {
+            transform: scale(1.1); // Effetto di ingrandimento al passaggio del mouse
+        }
+    }
+    
+    .tool-circle img {
+        width: 60%; // L'immagine occupa il 60% del cerchio
+        height: 60%;
+        object-fit: contain; // Ridimensiona l'immagine per farla stare all'interno del cerchio
+    }
+    
+    .tool-name {
+        font-family: $font-family-sans-serif;
+        color: $text-dark;
+        font-size: 1.5rem;
+    }
+}

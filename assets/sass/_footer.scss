@@ -1,0 +1,32 @@
+
+.footer {
+    background-color: $primary-color; // Sfondo scuro per il footer
+    color: $background-light; // Testo bianco
+    font-family: $font-family-sans-serif;
+
+    a {
+        color: $background-light; 
+        opacity: 0.8;
+        transition: opacity 0.3s ease-in-out;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+    
+    .social-links {
+        a {
+            color: $background-light;
+            opacity: 1;
+            transition: transform 0.3s ease-in-out;
+            
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
+    }
+    
+    .text-muted {
+        color: rgba(255, 255, 255, 0.6) !important;
+    }
+}
