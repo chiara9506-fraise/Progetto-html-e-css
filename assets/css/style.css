@@ -285,11 +285,22 @@ header .btn-primary:hover {
 .footer .social-links a {
   color: #FFFBF9;
   opacity: 1;
+}
+.footer .social-links .social-icon {
+  color: #FFFBF9;
+  display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
-.footer .social-links a:hover {
+.footer .social-links .social-icon:hover {
   transform: translateY(-3px);
 }
 .footer .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#progetti .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
