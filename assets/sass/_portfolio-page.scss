@@ -1,5 +1,5 @@
 
-#progetti {
+#progetti-portfolio {
 
     .container {
         display: flex;
@@ -7,8 +7,63 @@
         align-items: center;
     }
 
-    .display-4{
-        margin-top: 0px;
+     .display-4 {
+        font-family: $font-family-sans-serif;
+        color: $primary-color;
+        font-weight: 500;
+        font-size: 3rem;
+        text-align: center;
     }
+
+     .card {
+
+        background-color: rgb(255, 237, 237);
+        border-radius: $border-radius;
+        border: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-img-top {
+            border-top-left-radius: $border-radius;
+            border-top-right-radius: $border-radius;
+            height: 250px; // Altezza fissa
+            object-fit: cover; // L'immagine riempie il contenitore senza deformarsi
+        }
+        
+        .card-body {
+            text-align: center;
+        }
+
+        .card-title {
+            font-family: $font-family-sans-serif;
+            font-weight: 600;
+            color: $primary-color;
+            font-size: xx-large;
+        }
+        
+        .card-text {
+            font-family: $font-family-sans-serif;
+            color: $text-dark;
+        }
+    }
+
+    .btn-primary {
+            background-color: $primary-color; 
+            border-color: $primary-color; 
+            color: $background-light;  
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-2px);
+                border-color: $secondary-color;
+                background-color: $secondary-color;
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            }
+        }
+
 
 }

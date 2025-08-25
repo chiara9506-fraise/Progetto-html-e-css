@@ -36,6 +36,10 @@ header .btn-primary:hover {
   border-color: #007A3D;
 }
 
+main {
+  min-height: calc(100vh - 80px - 200px);
+}
+
 #hero {
   background-color: #FFFBF9;
 }
@@ -298,11 +302,127 @@ header .btn-primary:hover {
   color: rgba(255, 255, 255, 0.6) !important;
 }
 
-#progetti .container {
+#progetti-portfolio .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#progetti .display-4 {
-  margin-top: 0px;
+#progetti-portfolio .display-4 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+}
+#progetti-portfolio .card {
+  background-color: rgb(255, 237, 237);
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+#progetti-portfolio .card:hover {
+  transform: translateY(-5px);
+}
+#progetti-portfolio .card .card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 250px;
+  object-fit: cover;
+}
+#progetti-portfolio .card .card-body {
+  text-align: center;
+}
+#progetti-portfolio .card .card-title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: #CD1B43;
+  font-size: xx-large;
+}
+#progetti-portfolio .card .card-text {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+#progetti-portfolio .btn-primary {
+  background-color: #CD1B43;
+  border-color: #CD1B43;
+  color: #FFFBF9;
+  transition: all 0.3s ease-in-out;
+}
+#progetti-portfolio .btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: #007A3D;
+  background-color: #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#project-details {
+  background-color: #FFFBF9;
+  padding-top: 100px;
+}
+#project-details .nav-bar {
+  background-color: #FFFBF9;
+}
+#project-details .display-4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 60px;
+  color: #CD1B43;
+  margin-bottom: 1.5rem;
+  margin-top: -20px;
+}
+#project-details h3 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#project-details p {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.8;
+}
+#project-details .lead {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #333333;
+  margin-top: -20px;
+}
+#project-details img.rounded {
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+#project-details ul.list-unstyled li {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
+#project-details ul.list-unstyled li span {
+  font-weight: normal;
+}
+#project-details .text-center {
+  text-align: center;
+}
+#project-details .text-center .btn-primary {
+  background-color: #CD1B43;
+  border-color: #CD1B43;
+  color: #FFFBF9;
+  transition: all 0.3s ease-in-out;
+}
+#project-details .text-center .btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: #007A3D;
+  background-color: #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+#project-details .text-center .btn-secondary {
+  background-color: #FFFBF9;
+  border: 2px solid #CD1B43;
+  color: #CD1B43;
+  transition: all 0.3s ease-in-out;
+}
+#project-details .text-center .btn-secondary:hover {
+  transform: translateY(-2px);
+  color: #007A3D;
+  border: 2px solid #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=style.css.map */
