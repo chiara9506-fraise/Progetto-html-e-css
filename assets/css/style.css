@@ -36,10 +36,6 @@ header .btn-primary:hover {
   border-color: #007A3D;
 }
 
-main {
-  min-height: calc(100vh - 80px - 200px);
-}
-
 #hero {
   background-color: #FFFBF9;
 }
@@ -231,6 +227,7 @@ main {
 
 #tools {
   background-color: rgb(255, 237, 237);
+  margin-top: -40px;
 }
 #tools .display-4 {
   font-family: "Work Sans", sans-serif;
