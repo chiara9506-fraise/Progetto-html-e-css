@@ -47,13 +47,12 @@ header .btn-primary:hover {
   color: #333333;
 }
 #hero h1 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+  font-size: 3rem;
   text-align: start;
 }
 #hero h1 #job-title {
   font-family: "Work Sans", sans-serif;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #CD1B43;
   font-weight: 500;
   text-align: center;
@@ -61,9 +60,11 @@ header .btn-primary:hover {
 }
 #hero .lead {
   font-family: "Work Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 450;
+  font-size: 1.5rem;
   color: #333333;
   max-width: 600px;
+  margin-top: -10px;
 }
 #hero img {
   padding: 5px;
@@ -283,6 +284,9 @@ header .btn-primary:hover {
 .footer a:hover {
   opacity: 1;
 }
+.footer h5 {
+  color: #FFFBF9;
+}
 .footer .social-links a {
   color: #FFFBF9;
   opacity: 1;
@@ -421,5 +425,108 @@ header .btn-primary:hover {
   transform: translateY(-2px);
   color: #007A3D;
   border: 2px solid #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#bio {
+  background-color: #FFFBF9;
+  padding-bottom: 1rem;
+}
+
+.bg-secondary-custom {
+  background-color: rgb(255, 237, 237);
+}
+
+#experience .card {
+  border-left: 4px solid #CD1B43;
+  transition: transform 0.3s ease-in-out;
+}
+#experience .card:hover {
+  transform: translateY(-5px);
+}
+#experience .display-5 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -85px;
+  text-align: start;
+}
+
+#education {
+  background-color: #FFFBF9;
+}
+#education .card {
+  border-left: 5px solid #CD1B43;
+  transition: transform 0.3s ease-in-out;
+}
+#education .card:hover {
+  transform: translateY(-5px);
+}
+#education .display-5 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -85px;
+  text-align: start;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+
+.lead {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+}
+
+p, li {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+}
+
+.display-5 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -85px;
+  text-align: start;
+}
+
+.card-subtitle {
+  color: #333333;
+}
+
+.py-5.text-center {
+  background-color: #FFFBF9;
+}
+
+.btn-primary {
+  background-color: #CD1B43;
+  border-color: #CD1B43;
+  color: #FFFBF9;
+  transition: all 0.3s ease-in-out;
+  margin-top: -90px;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: #007A3D;
+  background-color: #007A3D;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=style.css.map */
