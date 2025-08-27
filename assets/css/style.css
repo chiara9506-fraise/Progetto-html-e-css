@@ -183,6 +183,7 @@ header .btn-primary:hover {
   font-weight: 400;
   color: #333333;
   text-align: right;
+  margin-top: 8px;
 }
 #progetti .card {
   background-color: rgb(255, 237, 237);
@@ -218,6 +219,7 @@ header .btn-primary:hover {
   border-color: #CD1B43;
   color: #FFFBF9;
   transition: all 0.3s ease-in-out;
+  margin-top: 10px;
 }
 #progetti .btn-primary:hover {
   transform: translateY(-2px);
@@ -269,6 +271,7 @@ header .btn-primary:hover {
   font-family: "Work Sans", sans-serif;
   color: #333333;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .footer {
@@ -431,12 +434,65 @@ header .btn-primary:hover {
 #bio {
   background-color: #FFFBF9;
   padding-bottom: 1rem;
+  margin-bottom: 35px;
+}
+#bio h1 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+}
+#bio h2 {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 500;
+}
+#bio h5 {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+#bio .lead {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  margin-top: 4px;
+}
+#bio p, #bio li {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+}
+#bio .display-5 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -85px;
+  text-align: start;
+}
+#bio .card-subtitle {
+  color: #333333;
+}
+
+.btn-primary {
+  background-color: #CD1B43;
+  border-color: #CD1B43;
+  color: #FFFBF9;
+  transition: all 0.3s ease-in-out;
+  margin-top: -10px;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: #007A3D;
+  background-color: #007A3D;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .bg-secondary-custom {
   background-color: rgb(255, 237, 237);
 }
 
+#experience {
+  margin-top: -40px;
+}
 #experience .card {
   border-left: 4px solid #CD1B43;
   transition: transform 0.3s ease-in-out;
@@ -455,6 +511,7 @@ header .btn-primary:hover {
 
 #education {
   background-color: #FFFBF9;
+  margin-bottom: 40px;
 }
 #education .card {
   border-left: 5px solid #CD1B43;
@@ -472,49 +529,8 @@ header .btn-primary:hover {
   text-align: start;
 }
 
-h1 {
-  font-family: "Work Sans", sans-serif;
-  color: #CD1B43;
-}
-
-h2 {
-  font-family: "Work Sans", sans-serif;
-  color: #333333;
-  font-weight: 500;
-}
-
-h5 {
-  font-family: "Work Sans", sans-serif;
-  color: #333333;
-}
-
-.lead {
-  font-family: "Work Sans", sans-serif;
-  color: #333333;
-  font-weight: 400;
-}
-
-p, li {
-  font-family: "Work Sans", sans-serif;
-  color: #333333;
-  font-weight: 400;
-}
-
-.display-5 {
-  font-family: "Work Sans", sans-serif;
-  color: #CD1B43;
-  font-weight: 500;
-  font-size: 3rem;
-  margin-top: -85px;
-  text-align: start;
-}
-
-.card-subtitle {
-  color: #333333;
-}
-
 .py-5.text-center {
-  background-color: #FFFBF9;
+  background-color: rgb(255, 237, 237);
 }
 
 .btn-primary {
@@ -522,11 +538,116 @@ p, li {
   border-color: #CD1B43;
   color: #FFFBF9;
   transition: all 0.3s ease-in-out;
-  margin-top: -90px;
+  margin-top: -10px;
 }
 .btn-primary:hover {
   transform: translateY(-2px);
   border-color: #007A3D;
   background-color: #007A3D;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#tools {
+  background-color: rgb(255, 237, 237);
+  margin-top: -40px;
+  margin-bottom: -60px;
+}
+#tools .display-4 {
+  font-family: "Work Sans", sans-serif;
+  color: #CD1B43;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: -84px;
+  text-align: left;
+}
+#tools .tool-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#tools .tool-circle {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+#tools .tool-circle:hover {
+  transform: scale(1.1);
+}
+#tools .tool-circle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+#tools .tool-name {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#contact-form {
+  background-color: #FFFBF9;
+  position: relative;
+  overflow: hidden;
+}
+#contact-form .form-control {
+  border-color: #CD1B43;
+}
+#contact-form .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(205, 27, 67, 0.25);
+  border-color: #CD1B43;
+}
+#contact-form .form-label {
+  font-weight: 500;
+  font-size: larger;
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+}
+#contact-form::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(240.4525862069, 144.5474137931, 166.099137931);
+  border-radius: 40% 60% 70% 30%/60% 40% 70% 30%;
+  opacity: 0.5;
+  z-index: 0;
+}
+#contact-form::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #007A3D;
+  border-radius: 50%;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.display-5 {
+  color: #CD1B43;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.lead {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #333333;
+  margin-top: -20px;
 }/*# sourceMappingURL=style.css.map */
