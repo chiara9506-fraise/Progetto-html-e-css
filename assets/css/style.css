@@ -26,19 +26,23 @@ header .btn-primary {
   background-color: #CD1B43;
   border-color: #CD1B43;
   font-family: "Work Sans", sans-serif;
+  color: #FFFBF9;
   font-size: large;
   font-weight: 600;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
   border-radius: 1rem;
   transition: background-color 0.3s ease-in-out;
 }
 header .btn-primary:hover {
   background-color: #007A3D;
   border-color: #007A3D;
+  color: #FFFBF9;
 }
 
 #hero {
   background-color: #FFFBF9;
+  margin-top: 90px;
 }
 #hero .row {
   gap: 3rem;
@@ -176,7 +180,7 @@ header .btn-primary:hover {
   color: #CD1B43;
   font-weight: 500;
   font-size: 3rem;
-  margin-top: -86px;
+  margin-top: -85px;
   text-align: right;
 }
 #progetti .lead {
@@ -379,7 +383,7 @@ header .btn-primary:hover {
   font-size: 60px;
   color: #CD1B43;
   margin-bottom: 1.5rem;
-  margin-top: -20px;
+  margin-top: 90px;
 }
 #project-details h3 {
   font-family: "Work Sans", sans-serif;
@@ -442,6 +446,7 @@ header .btn-primary:hover {
   background-color: #FFFBF9;
   padding-bottom: 1rem;
   margin-bottom: 35px;
+  margin-top: 80px;
 }
 #bio h1 {
   font-family: "Work Sans", sans-serif;
@@ -648,7 +653,7 @@ header .btn-primary:hover {
   color: #CD1B43;
   font-size: 3rem;
   font-weight: 500;
-  margin-top: 0;
+  margin-top: 90px;
 }
 
 .lead {
