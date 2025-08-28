@@ -17,3 +17,16 @@ function changeTitle() {
 
 // Avvia il cambio di testo ogni 3.5 secondi
 setInterval(changeTitle, 3500);
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.nav-link');
+    const currentURL = window.location.href;
+
+    links.forEach(link => {
+        const linkURL = link.href;
+        if (currentURL.includes(linkURL)) {
+            link.classList.add('active');
+        }
+    });
+});

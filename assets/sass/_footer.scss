@@ -18,27 +18,30 @@
     h5{
         color: $background-light;
     }
-    
-    .social-links {
 
-        a {
-            color: $background-light;
-            opacity: 1;
+     .footer-icon-link {
+        color: white;
+        font-size: 2.2rem;
+        transition: transform 0.3s ease-in-out;
+        
+        &:hover {
+            transform: translateY(-5px); 
+            color: lighten(white, 10%); 
         }
 
-        .social-icon {
-
-            color: $background-light;
-            display: inline-block;
-            transition: transform 0.3s ease-in-out;
-
-            &:hover {
-                transform: translateY(-3px);
-            }
+        .footer-behance-svg {
+            width: 2.2rem; 
+            height: 2.2rem;
+            filter: brightness(0) invert(1); 
         }
     }
     
     .text-muted {
         color: rgba(255, 255, 255, 0.6) !important;
     }
+
+}
+
+ .footer-project {
+       margin-top: -100px;
 }

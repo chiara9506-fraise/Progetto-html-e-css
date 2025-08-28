@@ -18,8 +18,9 @@ header .nav-link {
 header .nav-link:hover {
   color: #007A3D;
 }
-header .nav-link:active {
-  color: #3F1CF4;
+header .nav-link.active {
+  color: #007A3D !important;
+  font-weight: bold;
 }
 header .btn-primary {
   background-color: #CD1B43;
@@ -290,20 +291,26 @@ header .btn-primary:hover {
 .footer h5 {
   color: #FFFBF9;
 }
-.footer .social-links a {
-  color: #FFFBF9;
-  opacity: 1;
-}
-.footer .social-links .social-icon {
-  color: #FFFBF9;
-  display: inline-block;
+.footer .footer-icon-link {
+  color: white;
+  font-size: 2.2rem;
   transition: transform 0.3s ease-in-out;
 }
-.footer .social-links .social-icon:hover {
-  transform: translateY(-3px);
+.footer .footer-icon-link:hover {
+  transform: translateY(-5px);
+  color: white;
+}
+.footer .footer-icon-link .footer-behance-svg {
+  width: 2.2rem;
+  height: 2.2rem;
+  filter: brightness(0) invert(1);
 }
 .footer .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.footer-project {
+  margin-top: -100px;
 }
 
 #progetti-portfolio .container {

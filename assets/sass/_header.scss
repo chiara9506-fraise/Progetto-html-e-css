@@ -21,8 +21,9 @@ header {
             color: $secondary-color;
         }
 
-        &:active{
-            color: $link-color;
+        &.active {
+        color: $secondary-color !important;
+        font-weight: bold;
         }
     }
     
