@@ -114,6 +114,30 @@ header .btn-primary:hover {
     text-align: center;
   }
 }
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 120px;
+  right: -60px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(240.4525862069, 144.5474137931, 166.099137931);
+  border-radius: 40% 60% 70% 30%/60% 40% 70% 30%;
+  opacity: 0.5;
+  z-index: 0;
+}
+#hero::after {
+  content: "";
+  position: absolute;
+  bottom: 300px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #007A3D;
+  border-radius: 50%;
+  opacity: 0.7;
+  z-index: 0;
+}
 
 #about {
   background-color: rgb(255, 237, 237);
@@ -311,7 +335,7 @@ header .btn-primary:hover {
 .footer {
   background-color: #CD1B43;
   color: #FFFBF9;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
 }
 .footer a {
   color: #FFFBF9;
@@ -326,7 +350,7 @@ header .btn-primary:hover {
 }
 .footer .footer-icon-link {
   color: white;
-  font-size: 2.2rem;
+  font-size: 3rem;
   transition: transform 0.3s ease-in-out;
 }
 .footer .footer-icon-link:hover {
