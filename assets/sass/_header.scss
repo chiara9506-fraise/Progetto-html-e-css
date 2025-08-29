@@ -11,14 +11,15 @@ header {
     
     .nav-link {
         color: $primary-color;
-        font-family: $font-family-sans-serif;
+        font-family: $font-family-label;
         font-size: large;
         font-weight: 500;
         margin: 0 1rem;
-        transition: color $transition-speed ease-in-out;
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
         &:hover {
             color: $secondary-color;
+            transform: rotate(5deg);
         }
 
         &.active {
@@ -30,7 +31,7 @@ header {
     .btn-primary {
         background-color: $primary-color;
         border-color: $primary-color;
-        font-family: $font-family-sans-serif;
+        font-family: $font-family-label;
         color: $background-light;
         font-size: large;
         font-weight: 600;

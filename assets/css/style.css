@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
 header {
   padding: 1.5rem 0;
   background-color: rgb(255, 237, 237);
@@ -9,14 +10,15 @@ header .navbar-brand img {
 }
 header .nav-link {
   color: #CD1B43;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
   font-size: large;
   font-weight: 500;
   margin: 0 1rem;
-  transition: color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 header .nav-link:hover {
   color: #007A3D;
+  transform: rotate(5deg);
 }
 header .nav-link.active {
   color: #007A3D !important;
@@ -25,7 +27,7 @@ header .nav-link.active {
 header .btn-primary {
   background-color: #CD1B43;
   border-color: #CD1B43;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
   color: #FFFBF9;
   font-size: large;
   font-weight: 600;
@@ -40,16 +42,39 @@ header .btn-primary:hover {
   color: #FFFBF9;
 }
 
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007A3D;
+  color: #FFFBF9;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 18px;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+#scrollToTopBtn:hover {
+  opacity: 1;
+  background-color: #005B30;
+}
+
 #hero {
   background-color: #FFFBF9;
   margin-top: 0;
 }
 #hero .row {
   gap: 3rem;
-}
-#hero .display-5 {
-  font-family: "Shippori Antique", serif;
-  color: #333333;
 }
 #hero h1 {
   font-size: 3rem;
@@ -65,7 +90,7 @@ header .btn-primary:hover {
 }
 #hero .lead {
   font-family: "Work Sans", sans-serif;
-  font-weight: 450;
+  font-weight: 500;
   font-size: 1.5rem;
   color: #333333;
   max-width: 600px;
@@ -121,6 +146,8 @@ header .btn-primary:hover {
   border-radius: 1rem;
 }
 .about-main-content .btn-primary {
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 300;
   margin-top: 1rem;
   color: #FFFBF9;
   background-color: #CD1B43;
@@ -223,6 +250,8 @@ header .btn-primary:hover {
   background-color: #CD1B43;
   border-color: #CD1B43;
   color: #FFFBF9;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 300;
   transition: all 0.3s ease-in-out;
   margin-top: 10px;
 }
@@ -273,7 +302,7 @@ header .btn-primary:hover {
   object-fit: contain;
 }
 #tools .tool-name {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
   color: #333333;
   font-size: 1.5rem;
   font-weight: 500;
@@ -425,6 +454,8 @@ header .btn-primary:hover {
   background-color: #CD1B43;
   border-color: #CD1B43;
   color: #FFFBF9;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 300;
   transition: all 0.3s ease-in-out;
 }
 #project-details .text-center .btn-primary:hover {
@@ -437,6 +468,8 @@ header .btn-primary:hover {
   background-color: #FFFBF9;
   border: 2px solid #CD1B43;
   color: #CD1B43;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 300;
   transition: all 0.3s ease-in-out;
 }
 #project-details .text-center .btn-secondary:hover {
@@ -492,6 +525,8 @@ header .btn-primary:hover {
   background-color: #CD1B43;
   border-color: #CD1B43;
   color: #FFFBF9;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 300;
   transition: all 0.3s ease-in-out;
   margin-top: -10px;
 }

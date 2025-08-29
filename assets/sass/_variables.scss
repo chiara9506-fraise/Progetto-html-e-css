@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+
 // Palette primaria (colori vivi)
 $primary-color: #CD1B43;  // Rosso fragola
 $secondary-color: #007A3D; // Verde fragola
@@ -14,8 +18,8 @@ $accent-3: #B3E0C9; // Verde menta
 $accent-4: #8A81B3; // Viola
 
 // Font sito
-$font-family-serif: 'Shippori Antique', serif; // Titoli
-$font-family-sans-serif: 'Work Sans', sans-serif; // Testo
+$font-family-label: "Shippori Antique B1", sans-serif; // Labels
+$font-family-sans-serif: 'Work Sans', sans-serif; // Body e titoli
 
 // Altro
 $border-radius: 1rem;

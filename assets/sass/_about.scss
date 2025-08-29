@@ -42,6 +42,8 @@
 
         .btn-primary {
 
+            font-family: $font-family-label;
+            font-weight: 300;
             margin-top: 1rem;
             color: $background-light;
             background-color: $primary-color;
