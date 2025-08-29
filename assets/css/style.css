@@ -42,7 +42,7 @@ header .btn-primary:hover {
 
 #hero {
   background-color: #FFFBF9;
-  margin-top: 90px;
+  margin-top: 0;
 }
 #hero .row {
   gap: 3rem;
@@ -317,6 +317,9 @@ header .btn-primary:hover {
   margin-top: -100px;
 }
 
+#progetti-portfolio {
+  margin-top: -90px;
+}
 #progetti-portfolio .container {
   display: flex;
   flex-direction: column;
@@ -384,7 +387,7 @@ header .btn-primary:hover {
   font-size: 60px;
   color: #CD1B43;
   margin-bottom: 1.5rem;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 #project-details h3 {
   font-family: "Work Sans", sans-serif;
