@@ -14,6 +14,7 @@ header .nav-link {
   font-size: large;
   font-weight: 500;
   margin: 0 1rem;
+  margin-bottom: -10px;
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 header .nav-link:hover {
