@@ -8,7 +8,7 @@
         font-family: $font-family-sans-serif;
         color: $primary-color;
         font-weight: 500;
-        font-size: 3rem;
+        font-size: 48px;
         margin-top: -85px;
         text-align: right;
     }
@@ -16,6 +16,7 @@
     .lead {
         font-family: $font-family-sans-serif;
         font-weight: 400;
+        font-size: 24px;
         color: $text-dark;
         text-align: right;
         margin-top: 8px;
@@ -47,6 +48,7 @@
         .card-title {
             font-family: $font-family-sans-serif;
             font-weight: 600;
+            font-size: 32px;
             color: $primary-color;
             font-size: xx-large;
         }
@@ -64,6 +66,7 @@
             color: $background-light;  
             font-family: $font-family-label;
             font-weight: 300;
+            font-size: 16px;
             transition: all 0.3s ease-in-out;
             margin-top: 10px;
 
