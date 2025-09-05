@@ -12,7 +12,7 @@
     .display-4 {
 
         font-family: $font-family-sans-serif;
-        font-size: 60px;
+        font-size: 56px;
         color: $primary-color;
         margin-bottom: 1.5rem;
         margin-top: 0px;
@@ -34,7 +34,7 @@
 
     .lead {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 24px;
         color: $text-dark;
         margin-top: -20px;
     }
@@ -63,6 +63,7 @@
             border-color: $primary-color; 
             color: $background-light;  
             font-family: $font-family-label;
+            font-size: 16px;
             font-weight: 300;
             transition: all 0.3s ease-in-out;
 
@@ -79,6 +80,7 @@
             border: 2px solid $primary-color; 
             color: $primary-color;  
             font-family: $font-family-label;
+            font-size: 16px;
             font-weight: 300;
             margin-bottom: 80px;
             transition: all 0.3s ease-in-out;
